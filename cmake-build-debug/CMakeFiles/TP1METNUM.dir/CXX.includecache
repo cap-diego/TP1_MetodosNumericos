@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gspringhart/CLionProjects/TP1METNUM/main.cpp
+matriz.h
+/home/gspringhart/CLionProjects/TP1METNUM/matriz.h
+iostream
+-
+fstream
+-
+string.h
+-
+
+/home/gspringhart/CLionProjects/TP1METNUM/matriz.cpp
+matriz.h
+/home/gspringhart/CLionProjects/TP1METNUM/matriz.h
+
+/home/gspringhart/CLionProjects/TP1METNUM/matriz.h
+vector
+-
+iostream
+-
+iterator
+-
+algorithm
+-
+utility
+-
+cmath
+-
+
