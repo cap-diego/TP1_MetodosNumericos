@@ -27,6 +27,7 @@ public:
 
     int filas();
 
+    double condicionamiento();
 
     vector<double> eliminacion_gaussiana();
 
@@ -36,8 +37,8 @@ public:
 private:
     int n;
     int m;
-    vector<vector<double>> val;
-    vector<vector<int>> col;
+    vector<vector<double> > val;
+    vector<vector<int> > col;
     vector<int> grado;//es el valor que tenía al momento de crearse
 
 };
